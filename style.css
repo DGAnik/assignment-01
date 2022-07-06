@@ -9,9 +9,13 @@ h1 {
   font-weight: 900;
 }
 
-p{
-  font-size: 20px;
+.normal-p{
+  font-size: 15px;
   text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 #second-para {
@@ -22,6 +26,10 @@ h2{
   font-size: 40px;
   font-weight: 900;
   text-align: center;
+  padding-top: 20px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 5px;
 }
 
 h3{
@@ -101,6 +109,7 @@ div h4{
 
 #flexible-container{
   display: flex;
+  margin: 10px 100px;
 }
 
 .flex-div {
@@ -122,4 +131,24 @@ div h4{
 }
 #background-color-3 {
   background-color: cornsilk;
+}
+
+form {
+  background-color: cornsilk;
+  margin: 40px 350px;
+  padding: 40px 140px;
+}
+
+button {
+  background-color: tomato;
+  border: 5px solid tomato;
+  padding: 10px 20px;
+  margin: 0;
+}
+
+input[type=email] {
+  background-color: rgb(206, 192, 192);
+  border: 5px solid rgb(206, 192, 192);
+  padding: 10px 20px;
+  margin: 0;
 }
