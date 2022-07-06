@@ -3,26 +3,25 @@ body, html{
   height: 100%;
   margin: 0;
 }
-
+  /*for all the h1 tags*/
 h1 {
   font-size: 60px;
   font-weight: 900;
 }
 
+/*paragraph under---"our donation plan", "get my updates"*/
 .normal-p{
   font-size: 15px;
   text-align: center;
-  padding-top: 5px;
+  padding-top: -200px;
   padding-bottom: 5px;
   padding-left: 80px;
   padding-right: 80px;
 }
 
-#second-para {
-  color: rgb(85, 82, 82);
-}
+/* h2 tags for="donate today" "our donation plan"stay updated"*/
 
-h2{
+.common-h2{
   font-size: 40px;
   font-weight: 900;
   text-align: center;
@@ -31,7 +30,7 @@ h2{
   padding-right: 150px;
   padding-bottom: 5px;
 }
-
+/* amounts of money*/
 h3{
   background-color: rgb(241, 239, 239);
   padding: 30px;
@@ -39,31 +38,30 @@ h3{
   border: 2px solid rgb(241, 239, 239);
   border-radius: 15px;
 }
-
+/*h5 for "food for family" "education for family" "shelter for family"*/
 h5{
   font-size: 20px;
 }
-
+/*200tk colored*/
 #checked {
   background-color: rgb(250, 174, 161);
   border: 2px solid pink;
 }
-
+/* "let's help those....-full div*/
 .donate-now {
   text-align:center;
   color: white;
   font-weight: 900;
-  padding: 300px;
+  padding: 150px;
   background-image: url(images/donation13.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
   margin: 0;
   border: 0;
   background
 }
-
+/* "buttons for "donate now" "want to help"*/
 .donate-button {
   background-color: tomato;
   text-decoration: none;
@@ -72,80 +70,118 @@ h5{
   border-radius: 10px;
 }
 
-.donate-today {
+
+/* "donate today--full div*/
+#donate-today {
   text-align: center;
   padding: 50px 300px;
   font-weight: 900;
 }
 
 
-
-#donate-button {
-  background-color: tomato;
-  padding: 10px;  
-}
-
-.amount-option{
+/* "100tk 200tk 500tk....full div*/
+#amount-option{
   display: flex;
   font-size: 20px;
   text-align: center;
   padding: 10px 310px;
 }
-
-.other-amount {
+/* "div for 'other amount' 'second donate now button'*/
+#other-amount {
   margin: 20px;
   padding: 20px 530px;
 }
-
+/* "other amount" */
 div h4{
   color: lightgray;
   padding: 5px;
   margin-left: 20px;
 }
-
+/* "our donation plan" whole section*/
 #section3 {
   margin: 100px;
 }
-
+/* "3 div in-line view" */
 #flexible-container{
   display: flex;
-  margin: 10px 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: -80px;
+  margin-bottom: 60px;
 }
 
+/* 'food shelter education' */
 .flex-div {
   padding: 40px 20px;
   margin: 10px;
 }
 
+/* 'your action matters'-whole section*/
+#flexible-container-2 {
+  display: flex;
+  margin-left: 100px;
+}
+/* 'Your action matters' 'the paragraph' */
+#flex2-div {
+  width: 50%;
+}
+/* image of 'your action matters' */
+#flex2-div-img {
+  width: 80%;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  border: 5px solid white;
+  border-radius: 15px;
+}
+/* image of 'your action matters' */
+img {
+  border-radius: 15px;
+}
+/* 'your action matters' line*/
+#flex-h2 {
+  font-size: 40px;
+}
+
+/* paragraph under 'your action matters' */
+#flex-p {
+  padding-bottom: 30px;
+  text-align: justify;
+}
+
+/* paragraph under 'food shelter education for family' */
 .para-3
 {
   text-align: justify;
   font-size: 15px;
 }
-
+/* food for family---background color' */
 #background-color-1 {
   background-color: rgb(194, 191, 191);
 }
+/* shelter for family---background color' */
 #background-color-2 {
   background-color: rgb(248, 217, 222);
 }
+/* education for family---background color' */
 #background-color-3 {
   background-color: cornsilk;
 }
 
+/* 'Stay Updated---form' */
 form {
   background-color: cornsilk;
   margin: 40px 350px;
   padding: 40px 140px;
 }
-
+/* subscribe---button' */
 button {
   background-color: tomato;
   border: 5px solid tomato;
   padding: 10px 20px;
   margin-left: -2px;
 }
-
+/* email---placeholder in the form' */
 input[type=email] {
   background-color: rgb(206, 192, 192);
   border: 5px solid rgb(206, 192, 192);
@@ -159,18 +195,17 @@ footer {
   margin: 120px 0px;
   padding: 5px 200px 30px 200px;
 }
-
+/* Be Kind*/
 footer h2 {
   color: tomato;
   font-size: 30px;
   font-family:cursive;
   margin-bottom: 10px;
 }
-
+/* paragraph of footer*/
 footer p {
   color: white;
   font-size: 15px;
   font-family: inherit;
   margin-top: 15px;
-  
 }
